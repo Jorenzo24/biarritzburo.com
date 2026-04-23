@@ -34,7 +34,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <!-- CSS -->
-<link rel="stylesheet" href="css/style.css?v=20260423c">
+<link rel="stylesheet" href="css/style.css?v=20260423d">
 
 <!-- Schema.org LocalBusiness -->
 <script type="application/ld+json">
@@ -124,40 +124,6 @@
           <div class="hero-stat-label">Bureaux équipés</div>
         </div>
       </div>
-    </div>
-
-    <!-- Formulaire -->
-    <div class="hero-form-card" id="contact">
-      <h2>Demande de renseignements</h2>
-      <p>Réponse sous 24h · Devis gratuit et sans engagement</p>
-      <div class="form-group">
-        <label for="nom">Nom &amp; Prénom *</label>
-        <input type="text" id="nom" name="nom" placeholder="Jean Dupont" autocomplete="name">
-      </div>
-      <div class="form-group">
-        <label for="email">Email *</label>
-        <input type="email" id="email" name="email" placeholder="jean@exemple.com" autocomplete="email">
-      </div>
-      <div class="form-group">
-        <label for="tel">Téléphone</label>
-        <input type="tel" id="tel" name="tel" placeholder="06 00 00 00 00" autocomplete="tel">
-      </div>
-      <div class="form-group">
-        <label for="besoin">Votre besoin</label>
-        <select id="besoin" name="besoin">
-          <option value="">Sélectionner...</option>
-          <option>Location de bureau privatif</option>
-          <option>Domiciliation postale</option>
-          <option>Coworking</option>
-          <option>Autre renseignement</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Décrivez votre besoin, le nombre de personnes, la durée souhaitée..."></textarea>
-      </div>
-      <button type="submit" class="form-submit">Envoyer ma demande →</button>
-      <p class="form-note">Vos données sont confidentielles et ne sont jamais partagées.</p>
     </div>
   </div>
   <div class="wave-deco"></div>
@@ -511,20 +477,55 @@
   </div>
 </section>
 
-<!-- CTA final -->
-<div class="cta-section">
-  <h2>Prêt à travailler depuis Biarritz ?</h2>
-  <p>Contactez-nous dès aujourd'hui. Votre bureau peut être disponible dès demain.</p>
-  <div class="cta-actions">
-    <a href="#contact" class="btn-primary cta-btn-large">Demander un devis gratuit</a>
-    <a href="tel:0559239310" class="cta-phone">
-      <div class="phone-badge">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-        05 59 23 93 10
+<!-- Contact / CTA final -->
+<section class="cta-section" id="contact" aria-label="Nous contacter">
+  <div class="container cta-grid">
+    <div class="cta-text">
+      <span class="section-label cta-label">Contact</span>
+      <h2>Prêt à travailler depuis Biarritz ?</h2>
+      <p>Contactez-nous dès aujourd'hui. Votre bureau peut être disponible dès demain.</p>
+      <a href="tel:0559239310" class="cta-phone">
+        <div class="phone-badge">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          05 59 23 93 10
+        </div>
+      </a>
+      <p class="cta-mail"><a href="mailto:contact@biarritzburo.com">contact@biarritzburo.com</a></p>
+    </div>
+    <div class="hero-form-card">
+      <h2>Demande de renseignements</h2>
+      <p>Réponse sous 24h · Devis gratuit et sans engagement</p>
+      <div class="form-group">
+        <label for="nom">Nom &amp; Prénom *</label>
+        <input type="text" id="nom" name="nom" placeholder="Jean Dupont" autocomplete="name">
       </div>
-    </a>
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" placeholder="jean@exemple.com" autocomplete="email">
+      </div>
+      <div class="form-group">
+        <label for="tel">Téléphone</label>
+        <input type="tel" id="tel" name="tel" placeholder="06 00 00 00 00" autocomplete="tel">
+      </div>
+      <div class="form-group">
+        <label for="besoin">Votre besoin</label>
+        <select id="besoin" name="besoin">
+          <option value="">Sélectionner...</option>
+          <option>Location de bureau privatif</option>
+          <option>Domiciliation postale</option>
+          <option>Coworking</option>
+          <option>Autre renseignement</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Décrivez votre besoin, le nombre de personnes, la durée souhaitée..."></textarea>
+      </div>
+      <button type="submit" class="form-submit">Envoyer ma demande →</button>
+      <p class="form-note">Vos données sont confidentielles et ne sont jamais partagées.</p>
+    </div>
   </div>
-</div>
+</section>
 
 <!-- Footer -->
 <footer>
@@ -568,6 +569,6 @@
   </div>
 </footer>
 
-<script src="js/main.js?v=20260423c"></script>
+<script src="js/main.js?v=20260423d"></script>
 </body>
 </html>
