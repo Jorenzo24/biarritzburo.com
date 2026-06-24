@@ -430,6 +430,20 @@ section { padding: 80px 24px; }
    Galerie
    ============================================ */
 .galerie { background: var(--sand); }
+.galerie-video {
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    margin-bottom: 16px;
+    background: var(--ocean-light);
+    box-shadow: var(--shadow);
+}
+.galerie-video-el {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
 .galerie-grid {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
