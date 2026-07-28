@@ -7,3 +7,6 @@ Thumbs.db
 node_modules/
 *.bak
 *.old
+
+# Masters vidéo (sources lourdes, non déployées)
+assets/BIARRITZ BURO VERSION FINAL.mp4
